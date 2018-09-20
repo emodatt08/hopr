@@ -1,0 +1,26 @@
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.button{
+   background-color: #e10000;
+   color: #FFFFFF;
+   font-size: 12px;
+   padding-right:17px;
+   height: 20px;
+   width: 126.312px;
+   border-radius: 15px;
+   display: inline-block;
+
+} 
+ul > li{
+   list-style-type: none;
+   padding-top: 20px;
+  
+   
+}
+
+ul{
+    padding-top: 40px;
+    display: inline;
+ }

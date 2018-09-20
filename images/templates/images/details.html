@@ -1,0 +1,14 @@
+{% extends "layouts.html" %}
+
+{% block content %}
+<ul>
+    <li><h3>{{image.caption}}</h1></li>
+    <li><h5>{{image.created_at}}</h5></li>
+    <li></li><img src="{{image.image_url}}" class="img-rounded" /></li>
+    <li><a href = "{{image.image_url}}">Go To Link</a></li>
+    <li><a href = "/images">Go Back</a></li>
+</ul>
+
+
+
+{% endblock %}

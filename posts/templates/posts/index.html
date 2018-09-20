@@ -1,0 +1,14 @@
+{% extends 'layouts.html' %}
+{% block content%}
+<h3>Latest Posts</h3>   
+    <ul>
+        {% for post in posts  %}
+        <h5><a href = "{{post.link_url}}">{{ post.title }}</a><a href="/posts/details/{{post.id}}"><button class="button">Read more</button></a></h5>
+        {% endfor %}
+    </ul>
+
+
+{% endblock %}    
+
+        
+  
